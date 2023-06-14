@@ -1,0 +1,68 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+} 
+
+body{
+  background-color: #faebd7;
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90vw;
+}
+
+#editor{
+  display: flex;
+  width: 70vw;
+  height: 420px;
+  margin: auto;
+  padding: 10px;
+  resize: none;
+  flex-direction: column;
+  background: #78b59c;
+}
+
+p {
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1.1;
+  color:black;
+  text-align: center;
+}
+
+#preview{
+  display: flex;
+  flex-direction: column;
+  color: black;
+  outline: 2px solid black;
+  border-radius:4px;
+  margin: auto;
+  padding: 10px;
+  width: 70vw;
+  background: #8cab9e;
+  font-weight: 500;
+}
+
+h1{
+  font-size: 3em;
+  color: black;
+  text-align: center;
+}
+
+#preview p{
+font-size: 0.8em;
+text-align: justify;
+}
